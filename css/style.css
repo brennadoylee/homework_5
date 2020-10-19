@@ -71,6 +71,10 @@ footer{
 /* Cards! */
 .pricing{
     min-height: 500px;
+    display: flex;
+    flex-direction: column;     /* make main axis horizontal (default setting) */
+    justify-content: center; /* center items horizontally, in this case */
+    align-items: center;     /* center items vertically, in this case */
     /*Your code here.*/
     /*Don't forget to vertically and horizontally alight the card*/
   
@@ -83,7 +87,10 @@ footer{
   padding: 0 0 50px 0;
   /*Your code here.*/
   /*Take a look at flex-basis*/
-
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  flex-basis: auto;
 }
 
 .card > header{
@@ -142,10 +149,13 @@ header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
   /*Your  code here again.*/
+  display: flex;
+  justify-content: center;
 }
 
 .nav_links{
   /*Your code here again.*/
+  
 }
 
 .nav_item a{
@@ -178,7 +188,9 @@ header{
   }
 
   .nav_links{
-    /*Your code here again.*/  
+    /*Your code here again.*/ 
+    justify-content: flex-end;
+    flex-direction: row;
   }
 
   .nav_item a{
