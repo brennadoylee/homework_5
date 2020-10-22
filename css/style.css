@@ -203,8 +203,8 @@ header{
 }
 
 @media print { 
-  .body{
-    background-image: none;
+  body{
+    background-image: url();
   }
   .card {
     flex-basis: 200px;
@@ -215,6 +215,13 @@ header{
   .gallery{
     display: none;
   }
+  #gallery{
+    display: none;
+  }
+
+footer{
+    display:block;
+}
 
   /*Your code here again.*/
   /*You will want four selectors*/  
