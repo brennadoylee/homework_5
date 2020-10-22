@@ -210,7 +210,7 @@ header{
     flex-basis: 200px;
   }
   .pricing{
-    align-content: center;
+    vertical-align: top;
   }
   .gallery{
     display: none;
